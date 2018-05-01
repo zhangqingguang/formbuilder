@@ -74,7 +74,7 @@ class EditFieldView extends Backbone.View
   events:
     'click .js-add-option': 'addOption'
     'click .js-remove-option': 'removeOption'
-    'click .js-default-updated': 'defaultUpdated'
+    'change .js-default-updated': 'defaultUpdated'
     'input .option-label-input': 'forceRender'
 
   initialize: (options) ->
